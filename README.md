@@ -1,6 +1,6 @@
 # MS Learn Foundations of DataScience
 
-This repository contains some labs to help you get started. These labs are designed to introduce you to some of the core concepts in DataScience, and the DataScience Python Library.
+This repository contains some labs to help you get started. These labs are designed to introduce you to some of the core concepts in DataScience, and the DataScience Python Library. For the Learning Path Foundation of Data Science https://docs.microsoft.com/en-us/learn/paths/foundations-data-science/
 
 The labs are provided as notebooks that contain explanations of key DataScience principals and code.
 
