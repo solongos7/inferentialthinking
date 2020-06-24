@@ -7,7 +7,7 @@ test = {
 			"cases": [ 
 				{
 					"code": r"""
-					>>> twenty_twenty # Did you assign this variable correctly?
+					>>> twenty_twenty  # Did you assign this variable correctly?
 					2020
 					""",
 					"hidden": False,

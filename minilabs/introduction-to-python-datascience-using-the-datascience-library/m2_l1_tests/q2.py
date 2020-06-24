@@ -7,8 +7,8 @@ test = {
 			"cases": [ 
 				{
 					"code": r"""
-					>>> cnr # Are you sure you typed the formula in correctly?
-					1820
+					>>> cnr  # Are you sure you typed the formula in correctly?
+					1820.0
 					""",
 					"hidden": True,
 					"locked": False,
