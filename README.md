@@ -1,8 +1,12 @@
-# MS Learn Foundations of DataScience
+# MS Learn Foundations of DataScience - Data8
 
 This repository contains some labs to help you get started. These labs are designed to introduce you to some of the core concepts in DataScience, and the DataScience Python Library. For the Learning [Path Foundation of Data Science](https://docs.microsoft.com/learn/paths/foundations-data-science)
 
 The labs are provided as notebooks that contain explanations of key DataScience principals and code.
+
+## One Button Click Deploy
+
+The way this works is as follows is simply calling a specific URL which creates your Visual Studio Online Environment simply click on the create button to deploy the codespaces environment.
 
 [![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=MSLearn-DataScience&repo=MicrosoftDocs/inferentialthinking)
 
