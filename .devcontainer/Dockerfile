@@ -29,6 +29,10 @@ ARG USER_GID=$USER_UID
 COPY environment.yml* .devcontainer/noop.txt /tmp/conda-tmp/
 
 # Configure apt and install packages
+
+#Otter-grader fix
+    Run pip install git+https://github.com/eldridgejm/nb2pdf
+    
 RUN apt-get update \
     && apt-get -y install --no-install-recommends apt-utils dialog 2>&1 \
     #
@@ -48,8 +52,6 @@ RUN apt-get update \
     && pip --disable-pip-version-check --no-cache-dir install ipywidgets>=7.0.0 \
     && pip --disable-pip-version-check --no-cache-dir install bqplot \
     && pip --disable-pip-version-check --no-cache-dir install nbinteract>=0.0.12 \
-    # temp fix for otter grader installer 
-    && pip --disable-pip-version-check --no-cache-dir install git+https://github.com/eldridgejm/nb2pdf
     && pip --disable-pip-version-check --no-cache-dir install otter-grader \
     && pip --disable-pip-version-check --no-cache-dir install okpy  \
     #
