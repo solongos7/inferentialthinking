@@ -29,10 +29,7 @@ ARG USER_GID=$USER_UID
 COPY environment.yml* .devcontainer/noop.txt /tmp/conda-tmp/
 
 # Configure apt and install packages
-
-#Otter-grader fix
-    Run pip install git+https://github.com/eldridgejm/nb2pdf
-    
+   
 RUN apt-get update \
     && apt-get -y install --no-install-recommends apt-utils dialog 2>&1 \
     #
