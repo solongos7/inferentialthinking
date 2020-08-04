@@ -48,6 +48,8 @@ RUN apt-get update \
     && pip --disable-pip-version-check --no-cache-dir install ipywidgets>=7.0.0 \
     && pip --disable-pip-version-check --no-cache-dir install bqplot \
     && pip --disable-pip-version-check --no-cache-dir install nbinteract>=0.0.12 \
+    # temp fix for otter grader installer 
+    && pip install git+https://github.com/eldridgejm/nb2pdf
     && pip --disable-pip-version-check --no-cache-dir install otter-grader \
     && pip --disable-pip-version-check --no-cache-dir install okpy  \
     #
