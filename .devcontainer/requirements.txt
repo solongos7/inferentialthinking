@@ -1,6 +1,5 @@
 jupyter
 datascience 	
-otter-grader 
 numpy 
 pandas 
 scipy 
